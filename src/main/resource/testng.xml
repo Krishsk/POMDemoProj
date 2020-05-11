@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Sample POM Web Orders Application Test">  
+	<listeners>
+		<listener class-name="com.wol.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+  <test name="Web Orders App">  
+    <classes>  
+      <class name="com.wol.tests.LoginTest"/>  
+<!--       <class name="com.wol.tests.HomePageTest"/>   -->
+<!--       <class name="com.wol.tests.ViewAllOrdersTest"/>   -->
+    </classes>  
+  </test> 
+</suite> 
